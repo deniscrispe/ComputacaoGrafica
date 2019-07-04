@@ -37,7 +37,7 @@ def init():
     glEnable(GL_DEPTH_TEST)
     glEnable(GL_MULTISAMPLE)
     #obj = OBJ("al.obj")
-    obj = PLY("hand.ply")
+    obj = PLY("teapot.ply")
 
 def main():
     glutInit(sys.argv)
